@@ -1,0 +1,14 @@
+console.log = para imprimir coisas no terminal o que esta dentro.
+EX:
+    console.log("Hello Word");
+
+let = é uma variavel que eu mudar o valor dela.
+EX:
+    let variavel = 10;
+
+const = é uma variavel que não pode mudar o valor dela. 
+EX:
+    const pi = 3.14;
+
+
+
