@@ -10,5 +10,7 @@ const = é uma variavel que não pode mudar o valor dela.
 EX:
     const pi = 3.14;
 
-
+Math.pow = faz parte da biblioteca de funções matematicas
+EX:
+    Math.pow(altura,2);
 
