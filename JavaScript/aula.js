@@ -21,7 +21,7 @@ if (numeroDivisivelPor5) {
     console.log('Não')
 } */
 
-const numero = 5;
+/* const numero = 5;
 const numeroDivisivelPor5 = (numero % 5) === 0;
 
 if (numero === 0) {
@@ -30,4 +30,33 @@ if (numero === 0) {
     console.log('Sim'); 
 } else {
     console.log('Não');
+} */
+
+/* function sayMyName(name) {
+    console.log('Your name is: ' + name);
 }
+
+sayMyName('Gustavo'); */
+
+/* function incrementarJuros(valor, percentualJuros) {
+    const valorDeAcrecimo = (percentualJuros / 100) * valor;
+    return valor + valorDeAcrecimo; 
+}
+
+console.log(incrementarJuros(100, 10)); */
+
+/* function escrevaSeuNome(nome) {
+    console.log('meu nome é: ' + nome);
+}
+
+escrevaSeuNome('Gustavo'); */
+
+function maiorDeIdade(idade) {
+    if (idade >= 18) {
+        console.log('Você é maior de idade');
+    } else {
+        console.log('Você é menor de idade');
+    }
+}
+
+maiorDeIdade(5);

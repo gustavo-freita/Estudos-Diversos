@@ -14,3 +14,18 @@ Math.pow = faz parte da biblioteca de funções matematicas
 EX:
     Math.pow(altura,2);
 
+function = Um treço de codigo que ira rodar quantas vezes for chamado.
+EX 1: 
+    function sayMyName(name) {
+        console.log('Your name is: ' + name);
+    }
+
+    sayMyName('Gustavo');
+
+EX 2: 
+    function incrementarJuros(valor, percentualJuros) {
+        const valorDeAcrecimo = (percentualJuros / 100) * valor;
+        return valor + valorDeAcrecimo; 
+    }
+
+    console.log(incrementarJuros(100, 10));
