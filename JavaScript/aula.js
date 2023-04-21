@@ -51,7 +51,7 @@ console.log(incrementarJuros(100, 10)); */
 
 escrevaSeuNome('Gustavo'); */
 
-function maiorDeIdade(idade) {
+/* function maiorDeIdade(idade) {
     if (idade >= 18) {
         console.log('Você é maior de idade');
     } else {
@@ -59,4 +59,14 @@ function maiorDeIdade(idade) {
     }
 }
 
-maiorDeIdade(5);
+maiorDeIdade(5); */
+
+const gustavo = {
+    nome: 'Gustavo Freitas',
+    idade: 25,
+
+    descrever: function () {
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
+    }
+};
+

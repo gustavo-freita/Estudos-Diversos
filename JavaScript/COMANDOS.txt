@@ -29,3 +29,5 @@ EX 2:
     }
 
     console.log(incrementarJuros(100, 10));
+
+OBEJETO é uma estrutura dinamica de chave e valor e dentro desses valores podem ter funções.
