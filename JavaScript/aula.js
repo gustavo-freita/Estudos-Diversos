@@ -111,3 +111,71 @@ const renan = new Pessoa('Renan', 30);
 
 console.log(vitor); */
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* const alunos = ['J0ão', 'Vitor', 'Marina'];
+
+console.log(alunos); */
+
+/* const alunos = ['João', 'Vitor', 'Marina'];
+
+console.log(alunos[0]); */
+
+/* const alunos = ['João', 'Vitor', 'Marina'];
+
+alunos.push('Renan');
+
+alunos[4] = 'Gustavo';
+
+console.log(alunos); */
+
+/* const alunos = [];
+
+alunos.push('Gustavo');
+
+alunos.push(10);
+
+console.log(alunos); */
+
+/* const alunos = ['1', '2','3'];
+
+console.log(alunos);
+
+console.log(alunos.pop()); 
+
+console.log(alunos); */
+
+/* const alunos = ['1', '2','3'];
+
+console.log(alunos);
+
+console.log(alunos.shift()); 
+
+console.log(alunos); */
+
+/* const notas = [];
+
+notas.push(5);
+notas.push(7);
+notas.push(8);
+notas.push(2);
+notas.push(5);
+
+const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4]; 
+
+console.log(soma / notas.length ou pode colocar direto a quantidade que seria 5 );*/
+
+/* const notas = [];
+
+notas.push(5);
+notas.push(7);
+notas.push(8);
+notas.push(2);
+notas.push(5);
+
+const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4]; 
+
+console.log(soma / notas.length); */ 
+
+
+for (let i = 0; i < 10; i++) {  
+    console.log(i);
+}
