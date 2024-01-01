@@ -1,0 +1,11 @@
+npm create vite (para criar um projeto)
+
+npm i (para instalar as dependencias)
+
+npm rum dev (para iniciar o projeto em um servidor)
+
+code . (para abrir o projeto em uma janela diferente)
+
+ctrl + espaço (Para importar a função mais rapido)
+
+Sempre colocar "()" no "return" para funcionar
