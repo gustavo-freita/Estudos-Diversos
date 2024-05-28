@@ -1,0 +1,139 @@
+Conceitos Essenciais
+
+O que é lógica de programação = É como a pessoa organiza em cada trecho do código como e quando deve ser executado para atingir o o bjetivo.
+
+
+Bibliotecas 
+"#include <nome da função>" = para incluir uma biblioteca no código 
+
+#include <iostream> = padrão de entrada e saídas;
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  cout << "Hello World" << endl;
+  
+  return 0;
+}
+
+VARIAVEIS
+
+Tipos primários: 
+int = inteiro (10) 
+
+float = flutuante (1.0)
+
+double = igual ao "float" a diferença que o número de casas decimais é maior (1.00000)
+ 
+bool = Ex. "bool gostaDePure = false;"
+
+
+CONSTANTS 
+
+const = Pode se fazer tudo com ela mas a única coisa que não pode fazer é fazer alterações nela no meio do código.  Ex. "const int anoSonascimento = 1997"
+
+
+ENTRADA E SAÍDA PADRÃO
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int idade;
+
+  cout << "Digite a sua idade" << endl;
+  cin >> idade;
+  cout << "Você nasceu em" << 2024 - idade <<endl;
+
+  return 0;
+}
+
+DESVIO CONDICIONAIS 
+#include <iostream>
+using namespace std;
+
+int main() {
+  bool condicao = false;
+
+  if (condicao) {
+    cout << "entrou" << endl;
+  } else {
+    cout << "não entrou" <<endl;
+  }
+  return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  bool condicao = false;
+  bool outraCondicao = true;
+
+  if (condicao) {
+    cout << "entrou" << endl;
+  } else if (outraCondicao) {
+    cout << "Agora entrou aqui" <<endl;
+  }
+  return 0;
+}
+
+Operadores lógicos principais:
+! = negação | não
+&& = e
+|| = ou
+
+Operadores lógicos relacionais: 
+== = igual
+!= não igual | diferente 
+> = maior que
+< = menor que
+>= = maior ou igual que
+<= menor ou igual que
+
+
+EXPRESSÕES ARITMÉTICAS
+
++ => soma
+- => subtração
+* => multiplicação
+/ => divisão
+% => mod | operação modular | resto da divisão
+() => altera a precedência "o que significa que pode mudar a ordem da conta"
+
+idade = idade + 1;
+idade++;
+
+idade = idade - 1;
+idade--;
+
+idade = idade + 10;
+idade += 10;
+
+idade = idade - 10;
+idade -= 10;
+
+idade = idade * 10;
+idade *= 10;
+
+idade = idade / 10;
+idade /= 10;
+
+https://cplusplus.com/reference/
+https://gist.github.com/eduardoamorim-dev/663144e0e7d00643888b98ede6cf6af6
+
+
+https://www.zambonpharma.com/br/pt/sites/default/files/modules/text/files/codigo-de-etica-2016-com-arte-dez.2019.pdf
+
+
+
+https://github.com/matheusperezz
+
+https://youtu.be/7rjk9gANBP4?si=qVn-v1627uG1EEC_
+
+https://youtu.be/ol_S9G0nCNE?si=Yqz3iBzgA1Avz9C_
+
